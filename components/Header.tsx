@@ -6,7 +6,10 @@ const Header = ({ button_name }: { button_name: string[] }) => {
     <div className="max-h-screen-2xl flex-center flex-col">
       <div className="flex-end h-56 flex-col">
         <p className="flex-center text-5xl">Photo Dump</p>
-        <a href="" className="flex-center py-4">
+        <a
+          href="https://www.instagram.com/kelerence"
+          className="flex-center py-4"
+        >
           @Kelerence {/* Add Instagram link */}
         </a>
       </div>
