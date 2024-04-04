@@ -8,7 +8,7 @@ const ImageCard = ({ url }: { url: string }) => {
         alt={url}
         height={500}
         width={400}
-        className="h-64 object-none hover:object-cover"
+        className="h-56 object-none hover:object-cover md:h-64"
       />
     </div>
   );
